@@ -1,4 +1,4 @@
-/* Given an array of numbers sort it with bubble osrt tehnic*/
+/* Given an array of numbers sort it with bubble sort algorithm*/
 #include <iostream>
 
 using namespace std;
