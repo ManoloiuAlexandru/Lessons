@@ -17,11 +17,17 @@ def celmd(a: int):
             return d
     return 0
 
-n=input()
-listnr=[]
-for i in range(0,int(n)):
+
+n = input()
+listnr = []
+for i in range(0, int(n)):
     listnr.append(int(input()))
 
+exist = 0
 for nr in listnr:
     if celmd(nr) == 0:
         print(nr, end=' ')
+        exist = 1
+
+if exist == 0:
+    print("NOT EXIST")
