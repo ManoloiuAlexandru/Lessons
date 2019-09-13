@@ -1,0 +1,39 @@
+'''A number n is called an extrapolated if both it and any number obtained by the permutation
+circular numbers of n, are prime numbers. For example, the number 197 is a number
+extrapolated because 197, 971, 719 are prime numbers. Number 23 is not extrapolated
+because 32 is not prime.
+a) Write the complete definition of a subprogram f, with a parameter, subprogram that:
+- receives through the parameter a natural number with a maximum of 2 digits (a> 1);
+- returns the sum of all the exponents from the prime factorization of the value
+of parameter a.
+Example: for a = 90 the subprogram will return the value 4, because a = 2 * 32
+* 5 and
+1 + 2 + 1 = 4. (4p).
+b) Write a C / C ++ program that reads from the keyboard a natural number n, 2≤n≤99, and
+which, using useful subprogram calls f, checks to see if n is an extra number and
+Displays the message YES on the screen, otherwise the message NO.'''
+
+def prim(a: int) -> int:
+    exp = []
+    for d in range(2, a // 2 + 1):
+        power = 0
+        while (a % d == 0):
+            power += 1
+            a = a // d
+        if power != 0:
+            exp.append(power)
+    return sum(exp)
+
+
+def extraprim(a: int):
+    if prim(a) != 0:
+        print("NO")
+    else:
+        inv = 0
+        while (a > 0):
+            inv = inv * 10 + a % 10
+            a = a // 10
+        if prim(inv) == 0:
+            print("NO")
+        else:
+            print("YES")
