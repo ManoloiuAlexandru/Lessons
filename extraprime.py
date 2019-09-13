@@ -33,7 +33,7 @@ def extraprim(a: int):
         while (a > 0):
             inv = inv * 10 + a % 10
             a = a // 10
-        if prim(inv) == 0:
+        if prim(inv) != 0:
             print("NO")
         else:
             print("YES")
