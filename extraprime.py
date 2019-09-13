@@ -8,7 +8,7 @@ a) Write the complete definition of a subprogram f, with a parameter, subprogram
 of parameter a.
 Example: for a = 90 the subprogram will return the value 4, because a = 2 * 32
 * 5 and
-1 + 2 + 1 = 4. (4p).
+1 + 2 + 1 = 4.
 b) Write a C / C ++ program that reads from the keyboard a natural number n, 2≤n≤99, and
 which, using useful subprogram calls f, checks to see if n is an extra number and
 Displays the message YES on the screen, otherwise the message NO.'''
