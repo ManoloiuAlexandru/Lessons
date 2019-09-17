@@ -35,8 +35,10 @@ def s2(a: [], p, q):
                 break
     return -1
 
-
-array = [6, 10, 4, 15, 2, 5, 8]
+n=input()
+array=[]
+for i in range(0,int(n)):
+    array.append(int(input()))
 if (s2(array, 0, len(array)) != s2(array, len(array), 0)):
     poz_first = s2(array, 0, len(array))
     poz_second = s2(array, len(array), 0)
