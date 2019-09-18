@@ -6,8 +6,8 @@ integers with a maximum of 4 digits each, p, a natural number (p≤100), q, a na
 (Q≤100). The subprogram looks for the first element divisible by 5 in the sequence ap, ap + 1, ..., aq,
 and returns its position, if there is such an element, or the value -1 in the case
 contrary.
-a) Only write the subprogram header s1. (4p).
-b) Write the complete definition of subprogram s2. (6p).
+a) Only write the subprogram header s1.
+b) Write the complete definition of subprogram s2.
 c) Write the program that reads from the keyboard a natural value n (0 <n≤100) and
 then a one-dimensional array of, with n elements, integers up to 4 digits each.
 The program determines, using useful calls from subprogram s2, the first divisible element
@@ -15,7 +15,7 @@ with 5 (if any) and the last element divisible by 5 (if any) of table a, interch
 find the values of the found elements, using the subprogram call s1, and then write on the first line of
 the elements of the painting thus transformed, separated by one
 space, or the value 0 if the array contains less than two elements divisible by 5.
-Example: for n = 7 and the table a = (6,10,4,15,2,5,8), the program will write to the file:
+Example: for n = 7 and the table a = (6,10,4,15,2,5,8), the program will write:
 6 5 4 15 2 10 8*/
 #include <iostream>
 
