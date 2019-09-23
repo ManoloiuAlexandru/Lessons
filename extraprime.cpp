@@ -19,8 +19,8 @@ using namespace std;
 
 int prim(int a)
 {
-    int sum=0;
-    for (int d=2;d<a/2+1;d++)
+    int sum=0,ca=a;
+    for (int d=2;d<ca/2+1;d++)
         {
             int power=0;
             while(a%d==0)
