@@ -53,5 +53,7 @@ int extraprim(int a)
 }
 int main()
 {
-   extraprim(13);
+    int n;
+    cin>>n;
+   extraprim(n);
 }
