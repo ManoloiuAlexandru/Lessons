@@ -9,3 +9,4 @@ The solutions in nr_prime.py and cpp are for a problem that was given in 2009. T
 The solutions in the array_position.py and cpp are for a problem that was given in 2009. The sentence of the problem is in the .py and in the cpp.
 The solutions in number_digits.py and cpp are for a problem that was given in 2009. The sentence of the problem is in the .py and in the cpp.
 The solutions in number_generator.py and cpp are for a problem that was given in 2009. The sentence of the problem is in the .py and in the cpp.
+The solutions in two_power.py and cpp are for a problem that was given in 2009. The sentence of the problem is in the .py and in the cpp.
