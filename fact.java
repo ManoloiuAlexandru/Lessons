@@ -1,4 +1,4 @@
-/*Write a C ++ program that returns for a natural number n transmitted as a parameter the value of n!, Ex: 1 • 2 • ... • n.*/
+/*Write a program that returns for a natural number n transmitted as a parameter the value of n!, Ex: 1 • 2 • ... • n.*/
 import java.util.Scanner;
 
 public class Test {
