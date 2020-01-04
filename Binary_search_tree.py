@@ -38,4 +38,17 @@ class BinarySearchTree:
         else:
             self.postorder(nod.left)
             self.postorder(nod.right)
+
+if __name__ == '__main__':
+    root = BinarySearchTree(7)
+    root.insertnod(root, 3)
+    root.insertnod(root, 8)
+    root.insertnod(root, 4)
+    root.insertnod(root, 2)
+
+    root.inorder(root)
+    print()
+    root.postorder(root)
+    print()
+    root.preorder(root)
             print(nod.data, end=" ")
