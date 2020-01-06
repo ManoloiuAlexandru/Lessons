@@ -6,4 +6,4 @@ These lessons are for anyone who wants to start to learn programming. The proble
 Also in here you can see the difference between C++ and Python.
 
 Update: Now you can see the difference between Java and Python.</br>
-Update: All the codes in this repo will be updated soon the code will be more clear and clean.
+Update: All the codes in this repo will be updated soon. The code will be more clear and clean.</br>
