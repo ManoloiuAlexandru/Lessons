@@ -1,7 +1,9 @@
-'''In this py script it is demontrate how a stack works by implemanting a postfix calculator.
-A postfix calculator is a calculator that gates his values like this:
+'''In this py script it is demonstrated how a stack works by implemanting a postfix calculator.
+A postfix calculator is a calculator that gets his values like this:
 5 2 + which is from 5 + 2
 Other example is 5 6 7 * + 1 - which is from 5+6*7-1'''
+
+
 class myStack:
 
     def __init__(self):
@@ -28,23 +30,24 @@ class myStack:
         return self.container
 
 
-s = myStack()
-exp = 0
-listtoken = ['5', '6', '7', '*', '+', '1', '-']
-for token in listtoken:
+stack = myStack()
+result = 0
+list_of_tokens = ['5', '6', '7', '*', '+', '1', '-']
+for token in list_of_tokens:
     if token.isdigit():
-        s.push(token)
+        stack.push(token)
     else:
         if token == '+':
-            exp = int(s.pop()) + int(s.pop())
-            s.push(exp)
+            result = int(stack.pop()) + int(stack.pop())
+            stack.push(result)
         elif token == '-':
-            exp = -(int(s.pop()) - int(s.pop()))
-            s.push(exp)
+            result = -(int(stack.pop()) - int(stack.pop()))
+            stack.push(result)
         elif token == '*':
-            exp = int(s.pop()) * int(s.pop())
-            s.push(exp)
+            result = int(stack.pop()) * int(stack.pop())
+            stack.push(result)
         else:
-            exp = int(s.pop()) // int(s.pop())
-            s.push(exp)
-print(s.peek())
+            result = int(stack.pop()) // int(stack.pop())
+            stack.push(result)
+print(stack.peek())
+
