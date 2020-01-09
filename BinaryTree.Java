@@ -1,3 +1,4 @@
+//https://en.wikipedia.org/wiki/Binary_tree
 class BinaryTree{
 	int value;
 	BinaryTree left;
