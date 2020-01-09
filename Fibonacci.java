@@ -15,8 +15,8 @@ public class Test {
 public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("What element from the Fibonacci Sequence you want ?");
-		int n = scanner.nextInt();
-		long res=fibonaci(n);
-		System.out.print(res);
+		int the_number_you_want = scanner.nextInt();
+		long result=fibonaci(the_number_you_want);
+		System.out.print(result);
 	}
 }
