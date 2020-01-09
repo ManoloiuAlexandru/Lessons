@@ -1,3 +1,4 @@
+//https://en.wikipedia.org/wiki/Binary_search_tree
 class BinaryschTree{
 	int value;
 	BinaryschTree left;
