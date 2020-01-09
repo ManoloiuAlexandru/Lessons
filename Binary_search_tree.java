@@ -1,7 +1,3 @@
-import java.util.*;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 class BinaryschTree{
 	int value;
 	BinaryschTree left;
