@@ -51,4 +51,3 @@ if __name__ == '__main__':
     root.postorder(root)
     print()
     root.preorder(root)
-    print(nod.data, end=" ")
