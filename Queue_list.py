@@ -1,10 +1,11 @@
-class node():
+# https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
 
 
-class queue:
+class Queue:
     def __init__(self):
         self.head = None
         self.tail = None
@@ -13,7 +14,7 @@ class queue:
         return self.head is None
 
     def enqueue(self, item):
-        temp = node(item)
+        temp = Node(item)
 
         if self.tail is None:
             self.head = self.tail = temp
@@ -32,17 +33,18 @@ class queue:
         return str(temp.data)
 
 
-q = queue()
-q.enqueue(1)
-print(q.dequeue())
-q.enqueue(2)
-q.enqueue(3)
-q.enqueue(2)
-print(q.dequeue())
-print(q.dequeue())
-q.enqueue(2)
-q.enqueue(2)
-q.enqueue(2)
-q.enqueue(2)
+if __name__ == '__main__':
+    queue = Queue()
+    queue.enqueue(1)
+    print(queue.dequeue())
+    queue.enqueue(2)
+    queue.enqueue(3)
+    queue.enqueue(2)
+    print(queue.dequeue())
+    print(queue.dequeue())
+    queue.enqueue(2)
+    queue.enqueue(2)
+    queue.enqueue(2)
+    queue.enqueue(2)
 
-print(q.dequeue())
+    print(queue.dequeue())
