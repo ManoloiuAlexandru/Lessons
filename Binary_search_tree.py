@@ -1,3 +1,4 @@
+#https://en.wikipedia.org/wiki/Binary_search_tree
 class BinarySearchTree:
     def __init__(self, data):
         self.left = None
