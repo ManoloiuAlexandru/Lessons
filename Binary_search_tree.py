@@ -39,6 +39,7 @@ class BinarySearchTree:
         else:
             self.postorder(nod.left)
             self.postorder(nod.right)
+            print(nod.data, end=" ")
 
 if __name__ == '__main__':
     root = BinarySearchTree(7)
