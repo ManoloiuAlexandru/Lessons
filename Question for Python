@@ -1,6 +1,17 @@
 1. Suppose list_of_numbers is [1,2,3,4,6,5], what is list_of_numbers[-1] ?
-    a.1
-    b.2
-    c.5
-    d.IndexError: list index out of range
-    
+        a)1
+        b)2
+        c)5
+        d)IndexError: list index out of range
+
+2. Which of the following is an invalid statement ?
+        a)abc = 1,000,000
+        b)a b c = 200 300 400
+        c)a,b,c = 200,300,400
+        d)a_b_c = 1,000,000
+        
+3. Which of the following statements create a python dictionary ?
+        a)d={}
+        b)d={"a":3,"b":6}
+        c)d={4:"a",6:"b"}
+        d)d={4:"a",6:4}
