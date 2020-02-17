@@ -15,3 +15,23 @@
         b)d={"a":3,"b":6}
         c)d={4:"a",6:"b"}
         d)d={4:"a",6:4}
+
+4. What is the output when the following statement is executed ?
+>>"rd"+"44"
+        a)rd4
+        b)44rd
+        c)rd44
+        d)TypeError: can only concatenate str (not "int") to str
+        
+5. When will the else part of try-except-else be executed?
+        a)always
+        b)when an exception occurs
+        c)when no exception occurs
+        d)never
+        
+6. What is the output when the following statement is executed ?
+>>"ready"[3:]
+        a)ady
+        b)dy
+        c)re
+        d)d
