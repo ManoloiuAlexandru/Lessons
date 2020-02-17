@@ -35,3 +35,16 @@
         b)dy
         c)re
         d)d
+ 
+ 7. What is the output when we execute list("list") ?
+        a)['list']
+        b)['l','i','s','t']
+        c)["list"]
+        d)["l","i","s"]
+ 
+ 8. What is the output of the following ?
+ >>[i for i in "ready to go" if i not in "aeiou"]
+        a)['r','e','a','d','y']
+        b)['r', 'd', 'y', ' ', 't', ' ', 'g']
+        c)a list with all the letters
+        d)'r', 'd', 'y', ' ', 't', ' ', 'g'
