@@ -48,3 +48,9 @@
         b)['r', 'd', 'y', ' ', 't', ' ', 'g']
         c)a list with all the letters
         d)'r', 'd', 'y', ' ', 't', ' ', 'g'
+
+ 9. What types of data are mutable in python ?
+        a)int,float,string 
+        b)list
+        c)types
+        d)all in-built types
