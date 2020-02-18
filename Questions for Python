@@ -52,7 +52,7 @@
  9. What types of data are mutable in python ?
         a)string 
         b)list
-        c)types
+        c)tuples
         d)all built-in types
       
  10. Which of the following is a Python tuple ?
