@@ -85,3 +85,9 @@
         b)a method
         c)a function
         d)a module
+       
+  15. What are the difference between a list and a tuple ?
+        a)the list is mutable while the tuple is immutable
+        b)the list can only have same data types while the tuple can have different data types
+        c)the tuples can only contain non-duplicate data
+        d)none od the above
