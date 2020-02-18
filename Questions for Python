@@ -67,3 +67,21 @@
         b)2
         c)'b'
         d)KeyError:2
+
+ 12. Which keyword is use for function ?
+        a)def
+        b)class
+        c)for
+        d)staticmethod
+        
+  13. What is a class ?
+        a)a class is a Python function
+        b)a user defined blueprint or prototype
+        c)a specific array
+        d)none of the above
+        
+  14. What is function called when is defined in a class ?
+        a)a variable
+        b)a method
+        c)a function
+        d)a module
