@@ -1,0 +1,5 @@
+1. What is the complexity of bubble sort,explain why ?
+    The complexity of bubble sort is O(n^2) in the worst case, O(n^2) in the average case and in the best case is O(n). This happens because 
+you iterate through the array and check if the current element needs to be swapped. This algorithm is efficient on space because the only thing 
+you add to the program is another variable. The best case happens when the array is sorted so the only thing you have to do is to iterate it.
+
