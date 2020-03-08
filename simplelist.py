@@ -36,20 +36,37 @@ class linkedlist():
         count = 0
         temp = self.head
         while temp:
-            print(temp.data)
+            print(temp.data, end=" ")
             temp = temp.next
             count += 1
-        print(count)
+        print("Number of elements in list:", count)
 
 
-linklist = linkedlist()
+def reverseList(list):
+    new_list = linkedlist()
+    while list:
+        if new_list.head is None:
+            new_node = node(list.data)
+            new_list.head = new_node
+        else:
+            new_node = node(list.data)
+            copy_list = new_list.head
+            new_list.head = new_node
+            new_list.head.next = copy_list
+        list = list.next
+    return new_list
 
-linklist.insertlast(1)
-linklist.insertlast(2)
-linklist.insertlast(3)
-linklist.insertlast(4)
-linklist.insertlast(5)
-linklist.insertinlist(4)
-linklist.insertinlist(6)
 
-linklist.printlist()
+if __name__ == '__main__':
+    linklist = linkedlist()
+
+    linklist.insertlast(1)
+    linklist.insertlast(2)
+    linklist.insertlast(3)
+    linklist.insertlast(4)
+    linklist.insertlast(5)
+    linklist.insertinlist(4)
+    linklist.insertinlist(6)
+    revlist = reverseList(linklist.head)
+    revlist.printlist()
+    linklist.printlist()
