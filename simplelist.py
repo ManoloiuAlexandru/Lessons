@@ -1,4 +1,9 @@
-'''Reverse a singly linked list.
+'''
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
+https://www.geeksforgeeks.org/data-structures/linked-list/
+
+Ex:
+Reverse a singly linked list.
 https://leetcode.com/problems/reverse-linked-list/'''
 
 
