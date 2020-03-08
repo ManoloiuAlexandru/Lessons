@@ -1,3 +1,7 @@
+'''Reverse a singly linked list.
+https://leetcode.com/problems/reverse-linked-list/'''
+
+
 class node:
     def __init__(self, data):
         self.data = data
