@@ -1,0 +1,30 @@
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+    def preorder(self, nod):
+        if nod is None:
+            return
+        else:
+            print(nod.val, end=" ")
+            self.preorder(nod.left)
+            self.preorder(nod.right)
+
+
+class Solution:
+    def bstFromPreorder(self, preorder) -> TreeNode:
+        if preorder:
+            root = TreeNode(preorder[0])
+            root.left = self.bstFromPreorder([i for i in preorder if i < root.val])
+            root.right = self.bstFromPreorder([i for i in preorder if i > root.val])
+            return root
+        else:
+            return None
+
+
+if __name__ == '__main__':
+    sol = Solution()
+    root = sol.bstFromPreorder([8, 5, 1, 7, 10, 12])
+    root.preorder(root)
