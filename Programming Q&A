@@ -1,0 +1,11 @@
+1. What is the complexity of bubble sort,explain why ?
+    The complexity of bubble sort is O(n^2) in the worst case, O(n^2) in the average case and in the best case is O(n). This happens because 
+you iterate through the array and check if the current element needs to be swapped. This algorithm is efficient on space because the only thing 
+you add to the program is another variable. The best case happens when the array is sorted so the only thing you have to do is to iterate it.
+
+2. What are the difference between list and array ?
+    An array is smaller than the list because a list is made up of nodes and these nodes contain: the value of the node and the pointer to the 
+next node. The list will grow as more ellements are added to it while for the array it's starts with a fixed length. You can get the elements from
+an array by using index while to get the elements from a list you need to iterate the list so you can find the element you are looking for.
+Inserting and deleting an element in a list has O(1) time while in an array is more complex if you have to insert or delete an element from the array.
+
