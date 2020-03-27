@@ -4,6 +4,8 @@ Given two binary search trees root1 and root2.
 Return a list containing all the integers from both trees sorted in ascending order.
 
 https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+
+The time complexity of this program is: O(n)
 '''
 class BinarySearchTree:
     def __init__(self, data):
