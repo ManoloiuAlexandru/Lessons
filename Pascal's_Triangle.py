@@ -16,7 +16,7 @@ Output:
 http://leetcode.com/problems/pascals-triangle/
 
 Personal note:
-The time complexity of this program is: O(n)
+The time complexity of this program is: O(n^2)
 '''
 class Solution:
     def generate(self, numRows: int):
