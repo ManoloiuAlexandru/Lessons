@@ -2,6 +2,9 @@
 
 Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
 https://leetcode.com/problems/contains-duplicate/
+
+Personal note:
+The time complexity of this program is: O(n)
 '''
 
 
