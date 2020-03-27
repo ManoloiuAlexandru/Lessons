@@ -1,5 +1,8 @@
 '''In a tree are white globes, twice as many red globes and green globes as 3 less then the number of red globes.
 How many globes are there?
+
+Personal note:
+The time complexity of this program is: O(1)
 Solution in Python:'''
 
 white_globes = int(input())
