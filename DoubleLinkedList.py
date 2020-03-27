@@ -1,4 +1,7 @@
-'''https://en.wikipedia.org/wiki/Doubly_linked_list'''
+'''https://en.wikipedia.org/wiki/Doubly_linked_list
+
+The time complexity of this program is: O(n)
+'''
 class DoubleNod:
     def __init__(self, data):
         self.data = data
