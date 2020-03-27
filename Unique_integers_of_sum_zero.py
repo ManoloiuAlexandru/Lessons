@@ -2,7 +2,6 @@
 
 https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/ 
 
-Personal note:
 The time complexity of this program is: O(n)
 '''
 
