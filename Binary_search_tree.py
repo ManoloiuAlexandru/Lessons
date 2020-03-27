@@ -1,4 +1,7 @@
-#https://en.wikipedia.org/wiki/Binary_search_tree
+'''https://en.wikipedia.org/wiki/Binary_search_tree
+
+The time complexity of this program is: O(n)
+'''
 class BinarySearchTree:
     def __init__(self, data):
         self.left = None
