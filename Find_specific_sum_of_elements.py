@@ -4,7 +4,6 @@ The solution set must not contain duplicate triplets.
 
 https://leetcode.com/problems/3sum/
 
-Personal note:
 This is the naive approach. The time complexity of this program is: O(n^3)
 '''
 class Solution:
