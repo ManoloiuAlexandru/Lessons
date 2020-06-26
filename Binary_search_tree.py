@@ -1,5 +1,6 @@
 '''https://en.wikipedia.org/wiki/Binary_search_tree
 
+Given a binary search tree print the postorder, preorder and inorder.
 The time complexity of this program is: O(n)
 '''
 class BinarySearchTree:
