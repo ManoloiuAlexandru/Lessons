@@ -1,5 +1,9 @@
 """ Write a program that gets from input a sentence, counts word frequencies, and prints one line for each
-word, in descending order of frequency """
+word, in descending order of frequency
+
+The time complexity of this program is: O(n^2)
+
+"""
 
 # Dictionary for the words
 word_rank = dict()
