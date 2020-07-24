@@ -1,0 +1,7 @@
+1)What is the time complexity of Python list's count() function?
+The time complexity of count is O(n)
+https://stackoverflow.com/questions/44812468/what-is-the-time-complexity-of-python-lists-count-function
+
+2)What is the complexity of this python sort method?
+https://en.wikipedia.org/wiki/Timsort
+
