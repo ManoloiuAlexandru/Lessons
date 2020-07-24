@@ -1,23 +1,38 @@
-'''
+"""
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
 https://www.geeksforgeeks.org/data-structures/linked-list/
 
 Ex:
 Reverse a singly linked list.
-https://leetcode.com/problems/reverse-linked-list/'''
+https://leetcode.com/problems/reverse-linked-list/
+"""
 
 
 class node:
+    """
+    declaration of class node
+    """
+
     def __init__(self, data):
+        """
+        constructor for class node
+        """
         self.data = data
         self.next = None
 
 
 class linkedlist():
+    """
+    declaration of class linkedlist
+    """
+
     def __init__(self):
         self.head = None
 
     def insertlast(self, new_data):
+        """
+        method that inserts a new node at the end of the list or creates a the head of the list if the head is None
+        """
         if self.head is None:
             new_nod = node(new_data)
             self.head = new_nod
@@ -29,6 +44,9 @@ class linkedlist():
             temp.next = new_nod
 
     def insertinlist(self, new_data):
+        """
+        method that inserts a new node in the list after an element that has the same value else added to the end
+        """
         temp = self.head
         if temp is None:
             print("The list is empty")
@@ -42,6 +60,9 @@ class linkedlist():
             self.insertlast(new_data)
 
     def printlist(self):
+        """
+        method that prints the list and counts the number of elements
+        """
         count = 0
         temp = self.head
         while temp:
@@ -52,6 +73,9 @@ class linkedlist():
 
 
 def reverseList(list):
+    """
+    function that revers the given list and returns the new list
+    """
     new_list = linkedlist()
     while list:
         if new_list.head is None:
