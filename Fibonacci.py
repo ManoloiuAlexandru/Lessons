@@ -1,4 +1,4 @@
-'''Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.'''
+'''Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to the Nth number.'''
 def fibonaci(nr):
     if nr == 1 or nr == 2:
         return 1
