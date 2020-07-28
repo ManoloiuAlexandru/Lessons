@@ -15,7 +15,7 @@ def prime(number):
 
 if __name__ == '__main__':
 
-    given_nr = int(input())
+    given_nr = int(input("What is the number?"))
 
     for nr in range(2, given_nr):
         if prime(nr) is True:
