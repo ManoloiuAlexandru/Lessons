@@ -1,4 +1,5 @@
-'''Given two strings s and t , write a function to determine if t is an anagram of s.
+"""
+Given two strings s and t , write a function to determine if t is an anagram of s.
 
 Example 1:
 
@@ -9,7 +10,7 @@ Example 2:
 Input: s = "rat", t = "car"
 Output: false
 https://leetcode.com/problems/valid-anagram/
-'''
+"""
 
 
 class Solution:
