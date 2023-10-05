@@ -6,7 +6,8 @@ class Car:
         self.km = km
         self.price = price
 
-  class CreditCard:
+
+class CreditCard:
     def __init__(self, card_number, cardholder_name, exp_date, name_of_the_bank):
         self.card_number = card_number
         self.cardholder_name = cardholder_name
@@ -18,19 +19,21 @@ class Car:
         Check if card number is valid (Luhn Number Checksum)
         """
 
-    class NetworkDevice:
+
+class NetworkDevice:
     def __init__(self, name, IP, vendor, serial_number):
         self.name = name
         self.IP = IP
         self.vendor = vendor
         self.serial_number = serial_number
-    
+
     def validation_ip(self):
         """
         Check if IP is valid
         """
 
-    class Password:
+
+class Password:
     def __init__(self, password_contains):
         self.password_contains = password_contains
         self.security = None
