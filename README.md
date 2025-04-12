@@ -1,8 +1,18 @@
-# Lessons
-Here you can find different problems and solutions. On different subjects that are teached in high school and university.
+Lessons
+Welcome!
+Here you’ll find a collection of problems and solutions covering a range of topics taught in both high school and university programming courses.
 
+These lessons are perfect for anyone starting to learn programming. Each problem is designed to help you understand the fundamentals of programming languages such as C++, Java, and Python. By comparing the same problems across multiple languages, you’ll also gain insight into their differences.
 
-These lessons are for anyone who wants to start to learn programming. The problems are so that you can understand the basics of the language. The language that the problems are solved is C++,Java and Python . In order to run the solutions for C++ you need to have visual studio code installed or any program that can run C++,Java,Go or Python code. For these people that are wondering why you study C++ it is because it is a very low language and if you know it you can write cod that works directly on the computer processor making the program run faster. 
-Also in here you can see the difference between C++,Java and Python.
+To run the code, you can use Visual Studio Code or any environment that supports C++, Java, Go, or Python.
 
-***NOTE: The problems that you will find in university are made in Python. The problems for high school are made in C++.***
+Why C++?
+C++ is considered a lower-level language that offers closer interaction with the computer’s processor. Learning it helps you understand how programs work under the hood and can lead to more efficient code.
+
+✅ High school-level problems are primarily solved in C++.
+✅ University-level problems are written in Python.
+
+Want to Learn Python from Scratch?
+Check out my full video course on Udemy:
+Python for Beginners: Learn to Code and Prepare for the PCEP
+It’s designed for total beginners and includes hands-on coding, real-world examples, and interview preparation.
